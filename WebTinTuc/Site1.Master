@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebTinTuc.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+
+    <link href="Css/Site1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div class="head">
+            <div class="logo">
+                <a href="#"><img class="logo-ico" src="Img/logo.png" /></a>
+                <div class="search">
+                    <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                
+            </div>            
+        </div>
+        <div class="menu-bar">
+                <div class="menu" >
+                    <ol class ="ol-menu" style="list-style-type:none;display:inline;margin:0px;padding:0px;">		
+                            
+                            <li class ="li lii" ><i class="fa fa-search iconhome"></i></li>
+                            <li class ="li" ><a style="margin-left: -18px;" href="#" > XÃ HỘI</a></li>
+                            <li class ="li" ><a href="#" > THẾ GIỚI</a></li>
+                            <li class ="li" ><a href="#" > VĂN HÓA</a></li>
+
+                    </ol>
+                </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
