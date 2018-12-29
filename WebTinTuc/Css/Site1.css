@@ -1,5 +1,31 @@
 ﻿body {
-    margin:0px;
+    margin: 0px;
+    font-family: "San Francisco","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.bottom {
+    height: 74px;
+    background-color: #2FA1B3;
+    margin-top: 30px;
+}
+.search2 a{
+    color:white;
+}
+    .search2 a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+}
+p {
+    color: rgba(0, 0, 0, 0.75);
+}
+.dangnhap:hover {
+    color: #2FA1B3;
+}
+.dangki:hover {
+    color: #2FA1B3;
 }
 .head {
    
@@ -9,8 +35,13 @@
 }
 .logo {
     background-color: rgba(79, 102, 243, 0.22);
-    width: 60%;
-    
+    width: 55%;
+    margin: auto;
+}
+.logo2 {
+
+    width: 55%;
+ 
     margin: auto;
 }
 .search{
@@ -41,15 +72,15 @@
     position: absolute;
     width: 22px;
     height: 20px;
-    top: 4px;
-    left:7px;
+    top: 6px;
+    left: 7px;
     background: url('../Img/searching-magnifying-glass.png') no-repeat;
     background-size: 18px 20px;
 }
 .logo-ico {
     float: left;
     padding-top: 15px;
-    width: 160px;
+    width: 217px;
     height: 42px;
     display: inline;
 }
@@ -58,29 +89,40 @@
     float: left;
     font-size: 14px;
     margin-left: 93px;
-        
     line-height: 1.2rem;
     font-weight: 400;
     font-style: normal;
     font-family: inherit;
     color: #000;
-   
     height: 28px;
-    width: 315px;
+    width: 411px;
     margin-right: 5px;
     margin-top: 27px;
     padding: 0 0 0 10px;
     top: 20px;
 }
 
+.login {
+    float: right;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 34px;
+    margin-left: 10px;
+}
+.login1 {
+    float: right;
+}
 .menu-bar {
     width: 100%;
-    height: 36px;
+    height: 37px;
     background-color: #2FA1B3;
-
+    position:fixed;
+    top:80px;
 }
 .menu {
-    width: 60%;
+    width: 55%;
     margin: auto;
     height: 100%;
     
@@ -153,4 +195,239 @@
 }
 .lii :hover  {
     background-color: #297885;
+}
+
+
+.body {
+    width: 100%;
+    
+}
+
+.all-body {
+    padding-top: 70px;
+    width: 55%;
+    height: 2594px;
+    margin: auto;
+}
+.left-body {
+    width: 67%;
+    height: 100%;
+    float: left;
+   
+}
+.right-body {
+    width: 30%;
+    height: 100%;
+    float: right;
+    
+}
+.right-body1 {
+    width: 100%;
+    height: 40%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.right-body2 {
+    background-color: rgba(132, 254, 24, 0.25);
+    margin-top: 50px;
+    width: 100%;
+    height: 40%;
+}
+.new1 {
+    width: 100%;
+    height: 300px;
+    background: url('../Img/new/f9f4e34dbe0c57520e1d.jpg') no-repeat;
+    background-size: 20px 20px;
+}
+.ahead {
+    font-size: 34px;
+    color: #222;
+}
+.caption:hover {
+    color:#2FA1B3;
+}
+.img3 {
+    width: 30%;
+    float: left;
+    cursor: pointer;
+}
+.img3 img{
+    width:100%;
+}
+.imggiua {
+    padding-left: 5%
+}
+.imgthu3 {
+    float: right;
+}
+.ahead1 {
+    font-size: 18px;
+    width: 93%;
+    display: block;
+    padding-top: 7px;
+}
+    .ahead1:hover {
+        color: #2FA1B3;
+    }
+.part2 {
+    width: 100%;
+    height: 230px;
+}
+.timeline > .story {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 11px;
+}
+.story__thumb {
+    width: 25%;
+    margin-top: 21px;
+    float: left;
+    overflow: hidden;
+}
+
+.story__thumb:hover img {
+    
+    transform: scale(1.04);
+}
+
+    .story__thumb img {
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        transition: transform .5s ease-out .1s;
+        text-indent: -9999px;
+        /*transform: translate3d(0,0,0);*/
+    }
+
+.story__thumb2 {
+    display: block;
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+
+}
+.story__thumb2 h4 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 18px;
+        margin-bottom: 8px;
+}
+.story:hover .story__heading a {
+    color: #2FA1B3;
+}
+.tinytext {
+    color: #999;
+    font-size: 15px;
+}
+    .tinytext:hover {
+        color: #2FA1B3;
+    }
+.story {
+    height: 164px;
+}
+.story2 h4{
+    margin:0px;
+    
+}
+.story2 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+}
+.story2:hover .story__heading a {
+    color: #2FA1B3;
+}
+.title {
+    font-size: 25px;
+    line-height: 25px;
+    line-height: 2.5rem;
+    font-style: normal;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-left: 6px solid #2FA1B3;
+    
+}
+.title a {
+        color: #2FA1B3;
+        width: 100%;
+        display: block;
+}
+
+.m_left {
+    width: 340px;
+    float: left;
+    background-color: #f6f6f6;
+    
+}
+.m_left2{
+    height:365px;
+}
+.m_right {
+    width: 361px;
+    float: left;
+    overflow: hidden;
+    height: 489px;
+}
+    .m_right ul li {
+        width: 160px;
+        float: left;
+        margin-right: 12px;
+        margin-bottom: 11px;
+        height: 205px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+    .m_right ul {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .m_right h6 {
+        margin: 0px;
+        margin-top: 8px;
+    }
+.main_ct a:hover {
+    color: #2FA1B3;
+}
+
+/* right*/
+.story__heading2 a{
+    font-size:13px;
+}
+.story__heading2 h4 {
+    line-height: 15px;
+}
+
+.story__thumb_r {
+    
+    margin-top:0;
+
+}
+.story__thumb_r h4 {
+    font-size: 12px !important;
+    line-height: 17px !important;
+}
+.story__headingr {
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+.round-img {
+    border-radius: 6px;
+    height: 64px;
+}
+.story-r {
+    height: 94px !important;
+}
+
+/* banner*/
+.banner1 {
+    cursor: pointer;
+    width: 100%;
+    height: 277px;
 }
