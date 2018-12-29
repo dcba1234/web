@@ -1,5 +1,6 @@
 ﻿body {
     margin: 0px;
+
     font-family: "San Francisco","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .bottom {
@@ -121,12 +122,7 @@ p {
     position:fixed;
     top:80px;
 }
-.menu {
-    width: 55%;
-    margin: auto;
-    height: 100%;
-    
-}
+
 .ol-menu li {
     margin-right: 10px;
     display: inline-block;
@@ -202,10 +198,32 @@ p {
     width: 100%;
     
 }
-
+.menu {
+    
+    margin: auto;
+    height: 100%;
+}
+@media only screen and (max-width: 1367px) {
+    .all-body {
+        padding-top: 70px;
+        width: 78%;
+        height: 2594px;
+        margin: auto;
+    }
+    .menu {
+        width: 78%;
+        margin: auto;
+        height: 100%;
+    }
+    .logo {
+        width: 78%!important;
+    }
+}
+.main_ct {
+    height: 458px;
+}
 .all-body {
     padding-top: 70px;
-    width: 55%;
     height: 2594px;
     margin: auto;
 }
@@ -366,10 +384,11 @@ p {
     height:365px;
 }
 .m_right {
+
     width: 361px;
     float: left;
     overflow: hidden;
-    height: 489px;
+    height: 450px;
 }
     .m_right ul li {
         width: 160px;

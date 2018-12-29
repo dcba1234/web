@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Css/Site1.css" rel="stylesheet" />
     <link href="Css/site2.css" rel="stylesheet" />
     <script src="Script/jquery-3.3.1.min.js"></script>
@@ -21,7 +21,7 @@
                 <a href="#"><img class="logo-ico" src="Img/logo1.png" /></a>
                 <div class="search">
                     <input type="text" placeholder="Nhập nội dung tìm kiếm">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button type="submit" ><i class="fa fa-search"></i></button>
                     <a class="login login1 dangnhap" href="#">Đăng nhập</a>
                     <a class="login" >|</a>
                     <a class="login dangki" href="#">Đăng kí</a>
@@ -34,7 +34,7 @@
                 <div class="menu" >
                     <ol class ="ol-menu" style="list-style-type:none;display:inline;margin:0px;padding:0px;">		
                             
-                            <li class ="li lii" ><i class="fa fa-search iconhome"></i></li>
+                            <li class ="li lii" ><i class="fa fa-search iconhome" onclick="chao();"></i></li>
                             <li class ="li" ><a style="margin-left: -18px;" href="#" > XÃ HỘI</a></li>
                             <li class ="li" ><a href="#" > THẾ GIỚI</a></li>
                             <li class ="li" ><a href="#" > VĂN HÓA</a></li>

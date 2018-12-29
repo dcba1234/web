@@ -173,11 +173,11 @@
                     </ul>
                     
                 </div>
-                
+               
             </div>
              <!-- End -->
             <!-- start -->
-            <hr />
+             <hr />
             <h2 class="title">
                  <a href="#">Công nghệ</a>
             </h2>

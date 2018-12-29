@@ -12,3 +12,7 @@
 
 
 });
+
+function chao(){       
+    window.location = "WebForm1.aspx";
+}  
