@@ -30,24 +30,32 @@
                 
             </div>            
         </div>
-        <div class="menu-bar">
-                <div class="menu" >
-                    <ol class ="ol-menu" style="list-style-type:none;display:inline;margin:0px;padding:0px;">		
-                            
-                            <li class ="li lii" ><i class="fa fa-search iconhome" onclick="chao();"></i></li>
-                            <li class ="li" ><a style="margin-left: -18px;" href="#" > XÃ HỘI</a></li>
-                            <li class ="li" ><a href="#" > THẾ GIỚI</a></li>
-                            <li class ="li" ><a href="#" > VĂN HÓA</a></li>
-
-                    </ol>
-                </div>
-        </div>
+        
         <div class =" body">
+
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
-
-
+            <!-- righttttttt  -->
+                        <div class="main-filter" >
+                        <a href="WebChuDe.aspx" class="popular is-active1">
+                            <i class="spr chuyemmuc"></i>
+                            <span>Chủ đề</span>
+                        </a>
+                        <a href="WebVideo.aspx" class="popular is-active2">
+                            <i class="spr video"></i>
+                            <span>Video</span>
+                        </a>
+                        <a href="/" class="popular is-active3">
+                            <i class="spr bongda"></i>
+                            <span>Bóng đá</span>
+                        </a>
+                         <a  onclick="home(0);" class="popular is-active4">
+                            <i class="spr len"></i>
+                            <span>Lên trên</span>
+                        </a>
+                    </div>
+            <!-- righttttttt  -->
         </div>
         <div class="bottom">
             <div class="logo logo2">
@@ -63,5 +71,18 @@
             </div>            
         </div>
     </form>
+    <div class="menu-bar">
+                <div class="menu" >
+                    <ol class ="ol-menu" style="list-style-type:none;display:inline;margin:0px;padding:0px;">		
+                            
+                            <li class ="li lii" ><i class="fa fa-search iconhome" onclick="chao();"></i></li>
+                            <li class ="li" ><a style="margin-left: -18px;" href="#" > XÃ HỘI</a></li>
+                            <li class ="li" ><a href="#" > THẾ GIỚI</a></li>
+                            <li class ="li" ><a href="#" > VĂN HÓA</a></li>
+
+                    </ol>
+                </div>
+        </div>
 </body>
+
 </html>

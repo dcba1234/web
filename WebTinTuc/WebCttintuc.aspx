@@ -40,9 +40,238 @@
             <p>Hay T.Đ cũng từng quay xe lại mua ủng hộ cụ phong kẹo khi bất chợt bắt gặp trên phố, "Bà ở đoạn Khuất Duy Tiến giao hầm chui Thanh Xuân. Ai đi qua mua cho bà chút đồ nhé. Hôm trước mình đi quá rồi nhưng nhìn thương bà nên lại đi ngược lại mua cho bà 2 phong kẹo. Ít thôi nhưng nhẹ lòng lắm... Chẳng giúp được gì nhiều nhưng ít nhất thêm cho bà chút tiền để đủ lo cho cuộc sống hàng ngày". </p>
             <p>"Thường thì nếu thấy một người già bán hàng rong, mình sẽ móc hết tiền lẻ ra cho họ mà không mua gì cả. Bạn mình bảo chắc gì họ đã khổ thật, nhưng mà thật hay không không quan trọng vì vài nghìn lẻ cũng chẳng giúp mình giàu hơn được, chỉ là cảm giác có thể san sẻ với người khó khăn hơn mình một chút là được rồi...", một bạn khác bày tỏ quan điểm. </p>
             Miền Bắc đang chìm trong những ngày giá rét, hình ảnh những người lao động nghèo mưu sinh trên phố làm lòng người càng thêm tái tê. Chỉ cầu chúc cho cụ có được sức khỏe và một ngày nào đó phép màu sẽ đến mang lại may mắn và cuộc sống đủ đầy hơn cho cụ.
+            <p class="kyten">Theo Nam An (Helino)</p>
         </div>
         <div class="rightbody2">
-
+            <div  class="right-body">
+            <div  class="right-body1">
+              <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/right/bikip.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Bí kíp '5 ấm, 1 mát' giúp cả nhà tránh ho suốt mùa đông</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">1 giờ</a>
+                                    <a class="tinytext" href="#">82 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/tin3.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Thủ tướng: Tại sao cùng chủ trương, cơ chế chính sách mà nơi làm tốt, nơi trì trệ?</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">2 giờ</a>
+                                    <a class="tinytext" href="#">2 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/right/tiendat.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Rapper Tiến Đạt khẳng định tình yêu của mình khiến nhiều người ghen tị</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">1 giờ</a>
+                                    <a class="tinytext" href="#">2 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/right/thoitiet.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Áp thấp nhiệt đới di chuyển dần về khu vực quần đảo Hoàng Sa</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">7 giờ</a>
+                                    <a class="tinytext" href="#">VOV</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/right/no.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Nổ trạm biến áp 'nhuộm' xanh bầu trời New York như phim viễn tưởng</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">5 giờ</a>
+                                    <a class="tinytext" href="#">31 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/tongbithu.png"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Tổng Bí thư, Chủ tịch nước Nguyễn Phú Trọng</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">1 giờ</a>
+                                    <a class="tinytext" href="#">82 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/moingay.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" > Mỗi ngày gửi cho nhau một tin tốt, môi trường Internet sẽ trong lành hơn</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">2 giờ</a>
+                                    <a class="tinytext" href="#">12 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/benhvetim.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Bệnh về tim mạch có tỉ lệ tử vong hàng đầu ở Việt Nam</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">6 giờ</a>
+                                    <a class="tinytext" href="#">41 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/hinhanh.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Hình ảnh Honda Rebel 2019 và X-ADV với 'trang phục' mới</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">7 giờ</a>
+                                    <a class="tinytext" href="#">51 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+            
+                                        <img  class="round-img" src="Img/new/tuocgiayphep.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >Tước giấy phép công ty bị 'mất tích' 23 du khách tại Đài Loan</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">5 giờ</a>
+                                    <a class="tinytext" href="#">31 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+                <!-- start -->
+                        <div class="story story-r is-first" data-aid="29155904" data-track="|index0">
+                                <div class="story__thumb story__thumb_r">
+                                    <a href="#" target="_blank">
+                
+                                        <img  class="round-img" src="Img/new/right/tuvog.jpg"  />
+            
+                                    </a>
+                                </div>
+                                <div class="story__thumb2">
+                                    <h4 class="story__heading story__headingr"><a href="#" >27 người tử vong trong ngày đầu nghỉ Tết dương lịch</a></h4>
+                                <div class="story__meta">
+              
+                                    <a class="tinytext" href="#">1 giờ</a>
+                                    <a class="tinytext" href="#">82 liên quan</a>
+                                </div>
+    
+                                </div>
+                        </div>
+            <!-- End -->
+            </div>
+            <!-- Banner -->
+            <div  class="right-body2">
+                <img class="banner1" src="Img/banner_hcm_02-min.png" />
+       <!-- Banner -->
+            </div>
+        </div>
         </div>
         
     </div>

@@ -74,14 +74,43 @@
     <Content Include="Img\chitietbaiviet\ba-cu-4.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu-5.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu.jpg" />
+    <Content Include="Img\chude\afc1.jpg" />
+    <Content Include="Img\chude\afc2.jpg" />
+    <Content Include="Img\chude\afc3.jpg" />
+    <Content Include="Img\chude\afc4.jpg" />
+    <Content Include="Img\chude\khungbo.jpg" />
+    <Content Include="Img\chude\khungbo1.gif" />
+    <Content Include="Img\chude\khungbo2.jpg" />
+    <Content Include="Img\chude\khungbo3.jpg" />
+    <Content Include="Img\chude\my.jpg" />
+    <Content Include="Img\chude\my1.jpg" />
+    <Content Include="Img\chude\my2.jpg" />
+    <Content Include="Img\chude\my3.jpg" />
+    <Content Include="Img\chude\thamnhung.jpg" />
+    <Content Include="Img\chude\thamnhung1.jpg" />
+    <Content Include="Img\chude\thamnhung2.jpg" />
+    <Content Include="Img\chude\thamnhung3.jpg" />
+    <Content Include="Img\chude\tt1.jpg" />
+    <Content Include="Img\chude\tt2.jpg" />
+    <Content Include="Img\chude\tt3.jpg" />
+    <Content Include="Img\chude\tt4.jpg" />
     <Content Include="Img\logo.png" />
     <Content Include="Img\logo1.png" />
     <Content Include="Img\logo2.png" />
+    <Content Include="Img\menu-left\chuyenmuc.png" />
+    <Content Include="Img\menu-left\chuyenmuc2.png" />
+    <Content Include="Img\menu-left\soccer-ball-variant.png" />
+    <Content Include="Img\menu-left\soccer-ball-variant2.png" />
+    <Content Include="Img\menu-left\upload-button.png" />
+    <Content Include="Img\menu-left\upload-button2.png" />
+    <Content Include="Img\menu-left\video.png" />
+    <Content Include="Img\menu-left\video2.png" />
     <Content Include="Img\menu\home1.png" />
     <Content Include="Img\menu\home2.png" />
     <Content Include="Img\new\290369ea27abcef597ba.jpg" />
     <Content Include="Img\new\541aff57b2165b480207.jpg" />
     <Content Include="Img\new\93b815bf58feb1a0e8ef.jpg" />
+    <Content Include="Img\new\benhvetim.jpg" />
     <Content Include="Img\new\congnghe\cac-nha-khoa-hoc-trung-quoc-bien-doi-dong-thanh-vat-lieu-giong-nhu-vang.jpg" />
     <Content Include="Img\new\congnghe\han-che-su-tan-cong-cua-hacker-thong-qua-trinh-duyet-web.png" />
     <Content Include="Img\new\congnghe\iphone-xr-giup-apple-thu-hut-nhieu-khach-hang-android.jpg" />
@@ -89,10 +118,14 @@
     <Content Include="Img\new\congnghe\smartphone-nam-2019-cua-samsung-se-khong-co-loa-thoai.jpg" />
     <Content Include="Img\new\f9f4e34dbe0c57520e1d.jpg" />
     <Content Include="Img\new\hanh-xu-kieu-bat-can-doi-bom-tan-tu-choi-bat-tay-hlv-arsenal.jpg" />
+    <Content Include="Img\new\hinhanh.jpg" />
     <Content Include="Img\new\hlv-queiroz-viet-tam-thu-xuc-dong-keu-goi-truyen-thong-iran-dinh-chien-truoc-them-asian-cup.jpg" />
+    <Content Include="Img\new\moingay.jpg" />
     <Content Include="Img\new\mu-nham-m-allegri-cho-ghe-hlv-truong.jpg" />
     <Content Include="Img\new\noi-bo-dt-iraq-mau-thuan-lon-truoc-tran-ra-quan-gap-viet-nam.jpg" />
+    <Content Include="Img\new\ondinh.png" />
     <Content Include="Img\new\right\bikip.jpg" />
+    <Content Include="Img\new\right\tuvog.jpg" />
     <Content Include="Img\new\right\no.jpg" />
     <Content Include="Img\new\right\thoitiet.jpg" />
     <Content Include="Img\new\right\tiendat.jpg" />
@@ -104,15 +137,34 @@
     <Content Include="Img\new\tin1.jpg" />
     <Content Include="Img\new\tin2.jpg" />
     <Content Include="Img\new\tin3.jpg" />
+    <Content Include="Img\new\tongbithu.png" />
     <Content Include="Img\new\trung-quoc-doi-bong-gia-nhat-o-asian-cup-2019.jpg" />
+    <Content Include="Img\new\tuocgiayphep.jpg" />
     <Content Include="Img\searching-magnifying-glass.png" />
+    <Content Include="Img\video\video1.jpg" />
+    <Content Include="Img\video\video10.jpg" />
+    <Content Include="Img\video\video11.jpg" />
+    <Content Include="Img\video\video12.jpg" />
+    <Content Include="Img\video\video13.jpg" />
+    <Content Include="Img\video\video14.jpg" />
+    <Content Include="Img\video\video15.jpg" />
+    <Content Include="Img\video\video4.jpg" />
+    <Content Include="Img\video\video5.jpg" />
+    <Content Include="Img\video\video6.jpg" />
+    <Content Include="Img\video\video7.jpg" />
+    <Content Include="Img\video\video8.jpg" />
+    <Content Include="Img\video\video9.jpg" />
+    <Content Include="Img\video\videothieu.jpg" />
     <Content Include="Script\jquery-3.3.1.min.js" />
     <Content Include="Script\menu.js" />
     <Content Include="Web.config" />
+    <Content Include="WebChuDe.aspx" />
     <Content Include="WebCttintuc.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebUserControl1.ascx" />
+    <Content Include="WebVideo.aspx" />
+    <Content Include="WebVideoCT.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -122,6 +174,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebChuDe.aspx.cs">
+      <DependentUpon>WebChuDe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebChuDe.aspx.designer.cs">
+      <DependentUpon>WebChuDe.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebCttintuc.aspx.cs">
       <DependentUpon>WebCttintuc.aspx</DependentUpon>
@@ -150,6 +209,20 @@
     </Compile>
     <Compile Include="WebUserControl1.ascx.designer.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebVideo.aspx.cs">
+      <DependentUpon>WebVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebVideo.aspx.designer.cs">
+      <DependentUpon>WebVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebVideoCT.aspx.cs">
+      <DependentUpon>WebVideoCT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebVideoCT.aspx.designer.cs">
+      <DependentUpon>WebVideoCT.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
