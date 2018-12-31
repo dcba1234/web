@@ -76,6 +76,7 @@
     <Content Include="Img\bongDa\bar2.png" />
     <Content Include="Img\bongDa\bg-afcCup-06.png" />
     <Content Include="Img\bongDa\button.png" />
+    <Content Include="Img\bongDa\Flag\vn.png" />
     <Content Include="Img\bongDa\soccer-versusMini.png" />
     <Content Include="Img\chitietbaiviet\ba-cu-1.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu-2.jpg" />
@@ -250,9 +251,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Img\bongDa\Flag\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
