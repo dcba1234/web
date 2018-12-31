@@ -65,9 +65,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BongDa.aspx" />
+    <Content Include="Css\bongDa.css" />
     <Content Include="Css\Site1.css" />
     <Content Include="Css\site2.css" />
+    <Content Include="GioiThieu.aspx" />
+    <Content Include="Img\backgroud.jpg" />
     <Content Include="Img\banner_hcm_02-min.png" />
+    <Content Include="Img\bongDa\bar.png" />
+    <Content Include="Img\bongDa\bar2.png" />
+    <Content Include="Img\bongDa\bg-afcCup-06.png" />
+    <Content Include="Img\bongDa\button.png" />
+    <Content Include="Img\bongDa\soccer-versusMini.png" />
     <Content Include="Img\chitietbaiviet\ba-cu-1.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu-2.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu-3.jpg" />
@@ -161,12 +170,25 @@
     <Content Include="WebChuDe.aspx" />
     <Content Include="WebCttintuc.aspx" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="WebForm2.aspx" />
     <Content Include="WebUserControl1.ascx" />
     <Content Include="WebVideo.aspx" />
     <Content Include="WebVideoCT.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BongDa.aspx.cs">
+      <DependentUpon>BongDa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BongDa.aspx.designer.cs">
+      <DependentUpon>BongDa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.designer.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -195,13 +217,6 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebUserControl1.ascx.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>
@@ -235,7 +250,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Img\bongDa\Flag\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
