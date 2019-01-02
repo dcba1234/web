@@ -27,7 +27,15 @@
         width: 60px;
         left: 76px !important;
     }
+    .bodyof3, .videopage, .bodyOfBong, .bodyof2, .bodyCTVideo, .gioithieu, .quangcao ,.quanli{
+        width: 78% !important;
+    }
+
 }
+
+
+
+
 .main-filter {
     position: fixed;
     top: 142px;

@@ -188,6 +188,7 @@
     <Content Include="Img\video\video9.jpg" />
     <Content Include="Img\video\videothieu.jpg" />
     <Content Include="LienHeQuangCao.aspx" />
+    <Content Include="QuanLi.aspx" />
     <Content Include="Script\jquery-3.3.1.min.js" />
     <Content Include="Script\menu.js" />
     <Content Include="Web.config" />
@@ -228,6 +229,13 @@
       <DependentUpon>LienHeQuangCao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLi.aspx.cs">
+      <DependentUpon>QuanLi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanLi.aspx.designer.cs">
+      <DependentUpon>QuanLi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

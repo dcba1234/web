@@ -366,15 +366,7 @@
 }
 
 
-/*-Liên hệ quảng cáo -->*/
 
-.quangcao {
-    width: 55%;
-    height: 700px;
-    margin-left: 428px;
-    margin-top: 71px;
-    background-color: #efefef;
-}
 
 .lichthidau {
     float: right;
@@ -453,4 +445,248 @@
     width: 100%;
     background: white;
     padding-bottom: 32px;
+}
+
+/* --------------------------------------------Quảng cáo*/
+/*-Liên hệ quảng cáo -->*/
+
+.quangcao {
+    width: 55%;
+    height: 692px;
+    margin:auto;
+    margin-top:70px;
+
+}
+
+.quangcaoR {
+    width: 30%;
+    height: 700px;
+
+    float: right;
+}
+.quangcaoL {
+    width: 67%;
+    height: auto;
+    border-right:1px solid #666;
+    float: left;
+}
+.input1 {
+    margin-top: 14px;
+    width: 100%;
+    height: 220px;
+}
+.input1L, .input1R {
+    width: 49%;
+    height: 100%;
+    
+   
+}
+.input1L {
+    float:left;
+}
+.input1R {
+    float: right;
+}
+.input1 span{
+    margin:0;
+    font-size:15px;
+    margin-right:5px;
+}
+.input1 input {
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-bottom:20px;
+    margin-right:50px;
+}
+.sao{
+    color:red;
+}
+.fCategory {
+    margin-top: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    width: 338px;
+}
+#noidung{
+    resize:vertical;
+    width:690px;
+    height:400px;
+    max-height:200px;
+}
+.noidung {
+    font-size: 15px;
+}
+.buttonsend {
+    display: block;
+    position: relative;
+    float: right;
+    padding-right: 2px;
+    width: 120px;
+    padding: 0;
+    margin: 10px 5px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s;
+    background: #2FA1B3;
+}
+.buttonsend:hover {
+    background: #2b93a4;
+}
+.mienbac {
+    width: 100%;
+    position: relative;
+    height: 37px;
+    padding-top: 9px;
+}
+.mienbac span{
+    font-size:15px;
+    background: white;
+    margin:0;
+    position:absolute;
+    font-weight:bold;
+    margin-top: 3px;
+    padding-right: 10px;
+}
+.mienbac div{
+    width:100%;
+    position: absolute;
+    height:1px;
+    background:#e2e2e3;
+    margin-top:12px;
+}
+
+/* --------------------------------------------Quản lí*/
+.quanli {
+    width: 55%;
+    height: 687px;
+    margin: auto;
+    margin-top: 75px;
+}
+.danhsach {
+    overflow-y: scroll;
+    height: 900px;
+    max-height: 500px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+
+}
+.baiviet {
+    width: 100%;
+    
+    background: #efefef;
+    margin-bottom: 2px;
+    overflow: auto;
+}
+.baiviet:hover{
+    cursor:pointer;
+    background: #dedede;
+}
+.baiviet span{
+    margin-top:14px;
+    float:left;
+    font-size:14px;
+    padding-bottom: 14px;
+}
+.le {
+    background: #f9f9f9;
+}
+.chan {
+    background: white;
+}
+.tatca {
+    width: 100%;
+    padding-bottom: 9px;
+}
+.tatca a{
+    font-size:14px;
+    color: #0073aa;
+}
+.tatca a:first-child{
+    color: #000!important;
+    font-weight:bold;
+}
+.tatca2{
+    width:100%;
+    height:50px;
+}
+.fCategory2 {
+    float:left;
+    margin-top: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    width: 130px;
+    font-size:14px;
+}
+.fCategory3 {
+    float: left;
+    margin-top: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    width: 170px;
+    font-size: 14px;
+    margin-left:15px;
+}
+.button2 {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 4px;
+    border-color: #999;
+    border-radius: 3px;
+    transition: all 0.2s;
+    font-size: 13px;
+    color: #555;
+    border:1px solid;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+}
+.apdung {
+    width: 90px;
+    margin-left:10px;
+}
+.loc {
+    width: 50px;
+    margin-left: 10px;
+}
+.themmoi {
+    width: 90px;
+    float:right;
+}
+.tieude {
+    width: 1054px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.tieude span{
+    font-size: 14px;
+    margin:0px;
+    float:left;
+    
+    margin-top:8px;
+}
+.cot1{
+    color: #00a0d2;
+}
+.cot1{
+    padding-left:10px;
+    width:417px;
+}
+.cot2,.cot3,.cot4 {
+    width: 200px;
 }
