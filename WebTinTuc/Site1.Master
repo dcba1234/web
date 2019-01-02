@@ -5,12 +5,14 @@
 <html>
 <head runat="server">
     <title></title>
+    <script src="Script/jquery-3.3.1.min.js"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Css/Site1.css" rel="stylesheet" />
     <link href="Css/site2.css" rel="stylesheet" />
+    
+    
     <link href="Css/bongDa.css" rel="stylesheet" />
-    <script src="Script/jquery-3.3.1.min.js"></script>
     <script src="Script/menu.js"></script>
 
 </head>
@@ -63,7 +65,7 @@
                 <a href="#"><img class="logo-ico" src="Img/logo2.png" /></a>
                 <div class="search2">
                     
-                    <a class="login login1 dangnhap" href="#">Liên hệ quảng cáo</a>
+                    <a class="login login1 dangnhap" href="LienHeQuangCao.aspx">Liên hệ quảng cáo</a>
                     <a class="login" >|</a>
                     <a class="login dangki" href="GioiThieu.aspx">Giới thiệu</a>
                 </div>

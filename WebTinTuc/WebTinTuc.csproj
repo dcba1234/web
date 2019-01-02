@@ -65,18 +65,40 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BangDau.aspx" />
     <Content Include="BongDa.aspx" />
     <Content Include="Css\bongDa.css" />
     <Content Include="Css\Site1.css" />
     <Content Include="Css\site2.css" />
     <Content Include="GioiThieu.aspx" />
+    <Content Include="Img\arrow-left.png" />
     <Content Include="Img\backgroud.jpg" />
     <Content Include="Img\banner_hcm_02-min.png" />
+    <Content Include="Img\bongDa\arrow-left.png" />
+    <Content Include="Img\bongDa\arrow-right.png" />
     <Content Include="Img\bongDa\bar.png" />
     <Content Include="Img\bongDa\bar2.png" />
     <Content Include="Img\bongDa\bg-afcCup-06.png" />
     <Content Include="Img\bongDa\button.png" />
+    <Content Include="Img\bongDa\dau.png" />
+    <Content Include="Img\bongDa\dau2.png" />
+    <Content Include="Img\bongDa\desktop-logo-afcCup-2018-1.0.0.png" />
+    <Content Include="Img\bongDa\Flag\ando.png" />
+    <Content Include="Img\bongDa\Flag\bahrain.png" />
+    <Content Include="Img\bongDa\Flag\hanquoc.png" />
+    <Content Include="Img\bongDa\Flag\iran.png" />
+    <Content Include="Img\bongDa\Flag\jordan.png" />
+    <Content Include="Img\bongDa\Flag\Kyrgyzstan.png" />
+    <Content Include="Img\bongDa\Flag\palestine.png" />
+    <Content Include="Img\bongDa\Flag\philip.png" />
+    <Content Include="Img\bongDa\Flag\syria.png" />
+    <Content Include="Img\bongDa\Flag\thailan.png" />
+    <Content Include="Img\bongDa\Flag\trungquoc.png" />
+    <Content Include="Img\bongDa\Flag\UAE.png" />
+    <Content Include="Img\bongDa\Flag\uc.png" />
     <Content Include="Img\bongDa\Flag\vn.png" />
+    <Content Include="Img\bongDa\Flag\yemen.png" />
+    <Content Include="Img\bongDa\logooo.png" />
     <Content Include="Img\bongDa\soccer-versusMini.png" />
     <Content Include="Img\chitietbaiviet\ba-cu-1.jpg" />
     <Content Include="Img\chitietbaiviet\ba-cu-2.jpg" />
@@ -165,6 +187,7 @@
     <Content Include="Img\video\video8.jpg" />
     <Content Include="Img\video\video9.jpg" />
     <Content Include="Img\video\videothieu.jpg" />
+    <Content Include="LienHeQuangCao.aspx" />
     <Content Include="Script\jquery-3.3.1.min.js" />
     <Content Include="Script\menu.js" />
     <Content Include="Web.config" />
@@ -176,6 +199,13 @@
     <Content Include="WebVideoCT.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangDau.aspx.cs">
+      <DependentUpon>BangDau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BangDau.aspx.designer.cs">
+      <DependentUpon>BangDau.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BongDa.aspx.cs">
       <DependentUpon>BongDa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -189,6 +219,13 @@
     </Compile>
     <Compile Include="GioiThieu.aspx.designer.cs">
       <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LienHeQuangCao.aspx.cs">
+      <DependentUpon>LienHeQuangCao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LienHeQuangCao.aspx.designer.cs">
+      <DependentUpon>LienHeQuangCao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

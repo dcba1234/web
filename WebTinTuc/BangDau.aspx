@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="BongDa.aspx.cs" Inherits="WebTinTuc.BongDa" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="BangDau.aspx.cs" Inherits="WebTinTuc.BangDau" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="bodyOfBong">
         <div class="slide">
@@ -288,87 +288,393 @@
                   </div>
                </div>
             <div class="bodybong32">
+                <div id="bangdau">
 
-                <div class="time-title"><span>Thứ 7 NGÀY 05-01-2019</span></div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 1</span>  
-                    <span class="number2">Bảng A</span>
-                    <span class="theTeam theTeam1" >UAE</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/vn.png" />
-                    <span class="theTeam gio" >23:00</span>
-                    <span class="theTeam theTeam2">BAHRAIN</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/vn.png" />
 
+                
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng A</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
                 </div>
-                 <div class="time-title"><span>Chủ nhật NGÀY 06-01-2019</span></div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 7</span>  
-                    <span class="number2">Bảng B</span>
-                    <span class="theTeam theTeam1" >Úc</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/uc.png" />
-                    <span class="theTeam gio" >18:00</span>
-                    <span class="theTeam theTeam2">Jordan</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/jordan.png" />
-
-                </div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 2</span>  
-                    <span class="number2">Bảng A</span>
-                    <span class="theTeam theTeam1 thailan" >Thái Lan</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/thailan.png" />
-                    <span class="theTeam gio" >20:30</span>
-                    <span class="theTeam theTeam2">Ấn Độ</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/ando.png" />
-
-                </div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 8</span>  
-                    <span class="number2">Bảng B</span>
-                    <span class="theTeam theTeam1" >Syria</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/syria.png" />
-                    <span class="theTeam gio" >20:30</span>
-                    <span class="theTeam theTeam2">Palestine</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/palestine.png" />
-
-                </div>
-                <div class="time-title"><span>Thứ 2 NGÀY 07-01-2019</span></div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 13</span>  
-                    <span class="number2">Bảng C</span>
-                    <span class="theTeam theTeam1 trungquoc" >Trung Quốc</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/trungquoc.png" />
-                    <span class="theTeam gio" >18:00</span>
-                    <span class="theTeam theTeam2">Kyrgyzstan</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/Kyrgyzstan.png" />
-
-                </div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 14</span>  
-                    <span class="number2">Bảng C</span>
-                    <span class="theTeam theTeam1 hanquoc" >Hàn Quốc</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/hanquoc.png" />
-                    <span class="theTeam gio" >20:30</span>
-                    <span class="theTeam theTeam2">Philippine</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/philip.png" />
-
-                </div>
-                <div class ="lichdau"> 
-                    <span class="number">Trận 19</span>  
-                    <span class="number2">Bảng D</span>
-                    <span class="theTeam theTeam1" >Iran</span>
-                    <img class="flagteam1" src="Img/bongDa/Flag/iran.png" />
-                    <span class="theTeam gio" >23:00</span>
-                    <span class="theTeam theTeam2">Yemen</span>
-                    <img class="flagteam2" src="Img/bongDa/Flag/yemen.png" />
-
-                </div>
-                 <div class ="lichdau xemthem"> 
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Bahrain</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
                     
-                    <span class="xemthem" >Lịch thi đấu đầy đủ</span>
-                  
-
                 </div>
-             </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Ấn Độ</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Thái Lan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">UAE</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+
+
+                <br />
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng B</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Úc</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Jordan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Palestine</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Syria</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+                 <br />
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng C</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Úc</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Jordan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Palestine</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Syria</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+
+                 <br />
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng D</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Úc</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Jordan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Palestine</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Syria</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+                 <br />
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng E</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Úc</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Jordan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Palestine</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Syria</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+                 <br />
+                <div class ="bangdau ">
+                     <div class="colunm2">Bảng F</div>
+                    <div class="colunm">Đ</div>
+                    <div class="colunm">HS</div>
+                    <div class="colunm">Th</div>
+                    <div class="colunm">Tg</div>
+                    <div class="colunm">B</div>
+                    <div class="colunm">H</div>
+                    <div class="colunm">T</div>
+                    <div class="colunm">ST</div>
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Úc</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Jordan</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Palestine</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                <div class ="bangdau ">
+                     <div class="colunm2 colunm3">Syria</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    <div class="colunm">0</div>
+                    
+                </div>
+                 <div class ="lichdau xemthem ">                 
+                    <span class="xemthem xemthem2" >Xem chi tiết</span>
+                </div>
+                    </div>
+                </div>
+             
             <div class="bodybong33">
                 <h2 class="title2">
                  <a href="#">Tin tức</a>
